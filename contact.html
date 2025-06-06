@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+
+
+
+</head>
+<body>
+    <nav class="nav nav_top">
+        <div class="logo">
+           <a href="index.html"><img src="hollow.jpg" width="150px" alt="image"></a>
+        </div>
+        <div class="nav_side">
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Login/Register</a>
+        </div>
+    </nav>
+
+    <div class="contact_container">
+        <h2>contact us</h2>
+        <div class="g_map">
+            
+        </div>
+        <div class="contact_content">
+            <p><b>Owl Address : Somewhere In Scotland </b></p>
+            <p><b>Letter : Currently Not Available </b></p>
+            <p><b>Mail : Owl will Know </b></p>
+     
+        </div>
+    </div>
+
+
+
+
+
+    <div class="feedback">
+        <h2>deatly reviews</h2>
+    <div class="feedback_form">
+     <form name="googlefeedback" method="POST">
+         <input type="text" name="Name" placeholder="Name"><br>
+         <input type="text" name="Owl Address" placeholder="Owl Address"><br>
+         <input type="text" name="Contact" placeholder="Contact Number"><br>
+         <textarea name="Deadly Reviews" id="" cols="7" rows="5" placeholder="Write Your Deadly Reviews"></textarea><br>
+         <button type="submit">Submit</button>
+         <button type="reset">Resend OWL</button>
+     </form>
+    </div>
+     </div>
+ 
+ 
+    <!---footer-->
+    <footer>
+        <div class="footer_logo">
+            <a href="#"><img src="logo.jpg" width="300px" alt=""></a>
+        </div>
+        <div class="pages">
+            <a href="about.html"> About Us</a>|
+            <a href="services.html">deadly Services</a>|
+            <a href="blogs.html">Ghost Blogs</a>|
+            <a href="index.html">Alohomora</a>|
+            <a href="#">Avada Kedavra</a>|
+        </div>
+        <div class="doc">
+            <a href="">Hostel policy</a>|
+            <a href="">house password</a>|
+            <a href="">Policies after Death</a>|
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+         <a href=""><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+         <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+         <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+         <a href=""></a>
+        </div>
+        <hr>
+        <p>copyright &copy; 1991 Hogwarts . All protected By Intruder Charm </p>
+    </footer>
+ 
+ 
+ 
+             <script>
+                 const scriptURL = 'https://script.google.com/macros/s/AKfycbx2a9U6eNTAWZzpCHrIq6-flI_JU88QzmCSOWOYAb-3cXbMvn41znHfSqDOG6bKgbmXqA/exec'
+             const form = document.forms['googlefeedback']
+           
+             form.addEventListener('submit', e => {
+               e.preventDefault()
+               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                 .then(response => alert("Thank you for your OWL !! we will send reply with it soon...."))
+                 .catch(error => console.error('Error!', error.message))
+             })
+             </script>
+
+
+</body>
+</html>

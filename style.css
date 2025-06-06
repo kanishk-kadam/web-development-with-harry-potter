@@ -1,0 +1,565 @@
+p{
+    color: #195395;
+}
+.board{
+    color: #C0392B;
+}
+
+.nav {
+    
+    background-color:rgb(88, 78, 78);
+    z-index: 9;
+    padding-left: 30px;
+    padding-right: 30px;  
+    display: flex; 
+    box-shadow: 0px 5px 65px 0px black;
+}
+
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    width: 30%;
+    float: left;
+
+}
+
+.logo img{
+    padding: 5px ;
+}
+.nav_side {
+        float: right;
+        width: 70%;
+        margin-top: 10px;
+}
+.nav_side a{
+    text-decoration: none;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-top: 120px;
+    color: black;
+    width: 70%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+.nav_side a:hover{
+    color: blue;
+    transition: all 1s ease;
+
+}
+
+.main{
+    background-image: url('hogwards2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.main .main_content {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+}
+.main .main_content h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 15px;
+}
+.main .main_content span{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 25px;
+    color: black;
+
+}
+
+.main .main_content .btn {
+    margin-top: 50px;
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    padding-top: 20px;
+    margin: 50px;
+    padding: 20px 20px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+    transition: 5s;
+}
+.main .main_content .btn a:hover{
+    background-color: honeydew;
+    transition: 1s;
+    color: grey;
+}
+.product{
+    padding-bottom: 50px;
+}
+
+.product h2{
+    color: black;
+    font-size: 35px ;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.products .container_product{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.products .container_product .item{
+    width: 33%;
+    margin: 10px;
+    height: auto;
+}
+.products .container_product .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.products .container_product .item .item_img .img{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 15px;   
+}
+
+.products .container_product .item .item_content{
+    text-align: center;
+}
+.products .container_product .item .item_content h3{
+    padding: 10px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.products .container_product .item .item_content a{
+    text-decoration: none;
+    padding-top: 20px;
+    margin: 50px;
+    padding: 20px 20px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 15px;
+    transition: 3s;
+}
+.products .container_product .item .item_content a:hover{
+    background-color: honeydew;
+    transition: 1s;
+    color: grey;    
+}
+.products .container_product .item:hover {
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 15);
+}
+
+.products .products_btn{
+    text-align: center;
+    margin-top: 50px;
+    }
+    .products .products_btn a{
+        text-decoration: none;
+        padding-top: 20px;
+        margin: 50px;
+        padding: 20px 20px;
+        background-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        border: 2px solid green;
+        border-radius: 15px;
+        transition: 3s;
+    }
+    .products .products_btn a:hover{
+        background-color: honeydew;
+        transition: 1s;
+        color: grey; 
+    }
+
+    .keypoint{
+        padding: 50px;
+    }
+    .keypoint h2{
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+    }
+    .keypoint .key_container{
+        display: flex;
+    }
+
+    .keypoint .key_container .key_content{
+        width: 40%;
+        padding: 20px;
+        float: left;
+    }
+    .keypoint .key_container .key_content li{
+        margin: 10px;
+        padding: 10px;
+        border-left: 2px solid grey;
+        color: black;
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 15) ;
+    }
+    .keypoint .key_container .key_img{
+        width: 40%;
+        float: right;
+        margin: left;
+    }
+    .keypoint .key_container .key_img img{
+        width: 100%;
+    }
+
+    .testi{
+        padding: 50px;
+    }
+
+    .testi h2{
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .testi .testi_container{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .testi .testi_container .item{
+        width: 100%;
+        padding: 20px;
+        background-color: grey;
+    }
+    .testi .testi_container .item .item_content p{
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .testi .testi_container .item .item_img{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .testi .testi_container .item .item_img img{
+        
+        text-align: center;
+        padding-bottom: 15px; 
+        margin-top: 50px;
+    }
+
+    
+    .team{
+        padding: 50px ;
+    }
+    .team h2{
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .team .team_container{
+        display: flex;
+    }
+    .team .team_container .team_video{
+        width: 50%;
+        padding: 30px;
+    }
+    .team .team_container .team_video video{
+        width: 100%;
+        border: 10px solid black;
+    }
+    .team .team_container .team_content{
+            width: 30%;
+            padding: 20px;
+            margin: left 50px;
+    }
+    .team .team_container .team_content p{
+        padding: 10px;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+
+    }
+    .teachers{
+        background-color: gray;
+    }
+
+    .teachers .headmaster{
+        padding: 200px;
+        color: darkblue;
+        text-align: center;
+    }
+    .teachers .headmaster p{
+        color: darkblue;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    .teachers .minerva{
+        padding: 200px;
+        color: darkgreen;
+        text-align: center;
+    }
+    .teachers .minerva p{
+        color: darkgreen;
+        font-size: large;
+        font-weight: bold;
+    }
+     
+    .teachers .snape{
+        padding: 200px;
+        color: black;
+        text-align: center;
+    }
+    .teachers .snape p{
+        color: black;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+    .feedback{
+        background-image: url('dementor.jpg');
+        background-size: cover;
+        padding: 50px;
+    }
+    .feedback h2{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .feedback .feedback_form{
+        text-align: center;
+    }
+    .feedback .feedback_form form{
+        padding: 20px;
+    }
+    .feedback .feedback_form form input{
+        width: 30%;
+        margin: 15px;
+        padding: 10px;
+        outline: none;
+        border: none;
+    }
+    .feedback .feedback_form form textarea{
+        width: 30%;
+        margin: 15px;
+        padding: 10px;
+        outline: none;
+        border: none;
+    }
+    .feedback .feedback_form form button{
+        width: 30%;
+        margin: 15px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        background-color: grey;
+        color: black;
+        border-radius: 7px;
+    }
+    .feedback .feedback_form form button:hover{
+        background-color: honeydew;
+        transition: 1s;
+        color: grey;
+    }
+
+    .about_us{
+        padding: 150px;
+    }
+    .about_us h2{
+        color: grey;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .about_us p{
+        padding: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .contact_container{
+        padding: 150px;
+    }
+    .contact_container h2{
+        color: grey;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .contact_container .contact_content{
+        padding: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+    }
+
+
+
+
+
+
+    
+    footer{
+        background-color:#989493 ;
+        padding: 50px;
+
+    }
+    footer .pages{
+        text-align: center;
+    
+    }
+    footer .pages h3{
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+    }
+     footer .pages a{
+         text-decoration: none;
+         margin: 10px;
+         color: orange;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+    
+     footer .pages a:hover{
+         color: white;
+     }
+    
+     footer .doc{
+        text-align: center;
+    
+    }
+    footer .doc h3{
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+    }
+     footer .doc a{
+         text-decoration: none;
+         margin: 10px;
+         color: orange;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+    
+     footer .doc a:hover{
+         color: white;
+     }
+     footer .pages{
+        text-align: center;
+        margin: 25px;
+    }
+    
+    footer .pages a{
+        color: black;
+    }
+    
+     footer .doc{
+        text-align: center;
+    
+    }
+    footer .doc h3{
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+    }
+     footer .doc a{
+         text-decoration: none;
+         margin: 10px;
+         color: black;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+    
+     footer .doc a:hover{
+         color: white;
+     }
+    
+     footer .social{
+        text-align: center;
+    
+    }
+    footer .social h3{
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+    }
+    footer .social a{
+
+        font-size: 40px;
+        color: black;
+        margin: 10px;
+    
+    }
+    footer .social a:hover{
+        color: white;
+    }
+    
+    footer .contact{
+        text-align: center;
+    
+    }
+    footer .contact h3{
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+    }
+    footer .contact a{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        margin: 10px;
+    
+    }
+    footer .contact a:hover{
+        color: white;
+    }
+
+    
+
+
+
+
+
+
